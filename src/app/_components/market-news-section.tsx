@@ -11,7 +11,7 @@ export default async function MarketNewsSection() {
   if (response.error || !response.data) {
     return (
       <ErrorScreen
-        title="Api Error"
+        title="API Error"
         description={response.message ?? "Unknown error occurred"}
       />
     );
@@ -21,7 +21,7 @@ export default async function MarketNewsSection() {
     return (
       <ErrorScreen
         title="No News Found"
-        description="We couldn't find any news "
+        description="We couldn't find any news articles at the moment. Please try again later."
       />
     );
   }

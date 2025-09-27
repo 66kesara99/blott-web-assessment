@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://acme.com"),
+  metadataBase: new URL("https://blott-news-neon.vercel.app/"),
   title: "Blott News | Latest Financial News & Market Updates",
   description:
     "Stay updated with the latest financial news, market trends, and insights from www.finhub.io.",
