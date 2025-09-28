@@ -24,12 +24,6 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Blott News",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Blott News | Latest Financial News & Market Updates",
-    description:
-      "Stay updated with the latest financial news, market trends, and insights from www.finhub.io.",
-  },
 };
 
 export default function RootLayout({

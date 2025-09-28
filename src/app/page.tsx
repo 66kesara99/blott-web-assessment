@@ -25,7 +25,7 @@ export default function Home() {
           "text-[40px]/[88%] md:text-[80px] md:mt-[21px] text-left self-start font-regular uppercase tracking-[-0.01em] flex flex-col gap-1"
         )}
       >
-        <h1>LATEST NEWS </h1>
+        <h1>LATEST NEWS</h1>
         <h1 className="flex items-baseline gap-x-2 md:gap-x-4 flex-wrap">
           <span className={cn(albraFont, "tracking-[-0.06em]")}>FROM</span>
           <div
