@@ -10,10 +10,12 @@ This project is deployed in [https://blott-news-neon.vercel.app/](https://blott-
 ## Features
 
 - Fetches and displays real-time financial news from finhub.io
+- Using Next.js cache with Incremental Static Regeneration (ISR) to reduce API load
 - Responsive design for desktop and mobile
 - Skeleton loading states for smooth UX
 - SEO-optimized with Next.js metadata
 - Modular, type-safe codebase using TypeScript and Zod
+- Unit testing with Vitest
 
 ## Getting Started
 
@@ -69,6 +71,7 @@ blott-web-assessment/
 │   │   ├── schemas/      # Zod schemas for type safety
 │   │   └── utils/        # Utility functions
 ├── .env.local            # Environment variables (not committed)
+├── env.example           # Environment variables example
 ├── package.json          # Project metadata and scripts
 ├── next.config.ts        # Next.js configuration
 ├── tsconfig.json         # TypeScript configuration
@@ -82,6 +85,7 @@ blott-web-assessment/
 - [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework
 - [TypeScript](https://www.typescriptlang.org/) — Type safety
 - [Zod](https://zod.dev/) — Type validation
+- [Vitest](https://vitest.dev/) — Unit testing
 
 ## License
 
