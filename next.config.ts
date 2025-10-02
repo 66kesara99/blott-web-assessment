@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "data.bloomberglp.com",
       },
+      {
+        protocol: "https",
+        hostname: "sc.cnbcfm.com",
+      },
     ],
   },
 };
